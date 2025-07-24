@@ -11,7 +11,7 @@ import 'package:permission_handler/permission_handler.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // ✅ Initialize Foreground Task
+
   FlutterForegroundTask.init(
     androidNotificationOptions: AndroidNotificationOptions(
       channelId: 'staff_presence_channel',
